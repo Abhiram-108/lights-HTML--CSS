@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border box;
+    padding:0;
+}
+header{
+    position:fixed;
+    display:flex;
+    top:0;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 100px;
+    width:100%;
+    z-index:100;
+    
+
+}
+body{
+    background: url('pexels-photo-1496372.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size:1.7 rem;
+    cursor:pointer;
+}
+nav{
+    margin-right: 7rem;
+}
+.navigation a{
+    font-size:1.1rem;
+    color:black;
+    text-decoration: none;
+    margin-left: 11px;
+    padding:6px 15px;
+    font:600;
+    
+}
+.navigation a:hover{
+    border-bottom:2px solid black;
+    cursor:pointer;
+    
+}
+.section-1{
+    color:#de4628;
+    line-height:2rem;
+    font-size: 16px;
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.content{
+    text-align:center;
+
+}
+h3{
+    font-size: 2rem;;
+}
+h1{
+    font-size:2rem;
+}
+button{
+    font-size:1rem;
+    color:red;
+    font-weight: 600;
+    padding:10px 50px;
+    border-radius:40px;
+    cursor:pointer;
+    background: transparent;
+    outline:none;
+    margin-top: 5px;
+    transition: 2s;
+
+}
+button:hover{
+    color:black;
+    background-color: #de4628;
+
+
+}
